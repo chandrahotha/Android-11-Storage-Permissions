@@ -13,3 +13,47 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Gradle files
+.gradle/
+*.apk
+*.aab
+*.zip
+*.aar
+*.jar
+
+# Log/OS Files
+*.log
+Thumbs.db
+
+# Android Studio specific files
+.idea/
+*.iws
+*.ipr
+.classpath
+.cproject
+.settings/
+*.launch
+proguard/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Built application files and intermediate files
+*.ap_
+*.dex
+
+# Test artifacts
+.coverage/
+coverage/
+
+# IDE
+.vscode/
+vscode/
+.IntelliJIdea*/
+.emacs_backups
+
+# Android device connected states
+*.adb_*
+adb.log
